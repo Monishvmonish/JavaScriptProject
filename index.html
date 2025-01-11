@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksey</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+.overlay{
+
+
+    background-color: black;
+    height:100%;
+    width:100% ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+
+}
+#popup{
+position: absolute;
+z-index: 2;
+background-color: aqua;
+color: black;
+width: 40%;
+padding: 50px;
+border-radius: 10px;
+margin-top: 10px;
+left: 30%;
+display: none;
+}
+
+    </style>
+</head>
+<body>
+    <button onclick="show()">
+        show
+    </button> 
+    <div class="overlay">
+    </div>
+    <div id="popup"> 
+       
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum officia molestiae, aspernatur eligendi sapiente cumque. Doloremque rerum illo nam asperiores perspiciatis temporibus molestias cupiditate consequuntur et error, alias impedit.
+        <br>  
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+ <script src="script.js">
+
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2px" width="400px" height="200px" bgcolor="red" id="tableitem">
+        <tr>
+
+            <td>
+                name
+            </td>
+            <td>
+                monish
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                pincode
+            </td>
+            <td>
+                643004
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                email
+            </td>
+            <td>
+                moishvmonish5@gmail.com
+            </td>
+        </tr>
+        <tr>
+
+            <td>Address</td>
+            <td>
+                melcowhatty
+            </td>
+        </tr>
+<tr>
+
+
+
+</tr>
+
+    </table>
+    <button style="width: 200px;
+    height: 40px;">Save</button>
+    <button style="width: 200px;
+    height: 40px;" onclick="Delete(event)">Delete</button>
+
+<script>
+
+var table=document.getElementById("tableitem")
+function Delete(event){
+
+event.target.parentElement.remove()
+
+
+}
+
+
+</script>
+</body>
+
+</html>
